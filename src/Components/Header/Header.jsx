@@ -35,7 +35,7 @@ function Header() {
 
     return (
         <>
-            <Box as='header' py='1rem' ref={headerRef}>
+            <Box as='header' py='1rem' ref={headerRef} bg='black'>
                 <Container maxW='1100px' >
                     <Box as='nav' className='navbar'>
                         <Flex align='center' justify='space-between'>
